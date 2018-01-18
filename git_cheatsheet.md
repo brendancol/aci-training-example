@@ -45,3 +45,9 @@ git checkout -
 ```bash
 git config --global push.default current
 ```
+
+# Merge a feature branch into master
+```bash
+1. git checkout <the branch you want to merge INTO>
+2. git merge <branch you want to merge FROM>
+```

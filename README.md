@@ -1,7 +1,8 @@
 ### ACI
 
 #### Description
-This is a mock library used during the Python training
+
+This library was developed by Brendan
 
 #### Installation
 ```bash

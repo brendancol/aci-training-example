@@ -21,5 +21,8 @@
 7. Add imports to your `__init__.py` so users can easily access functions
    - `from aci.core import create_vrf`
 
+8. Install library into environment
+   - `python setup.py develop`
+
 
 

@@ -62,7 +62,7 @@ git stash
 git stash pop --index 1 # notice the index argument to grab a specific stashed change
 ```
 
-# Look at Git History
+# Look at Git History (and find a commit hash)
 ```bash
 git log
 
@@ -71,3 +71,21 @@ git log
 ```bash
 git checkout <commit hash you found in `git log`>
 ```
+#### The many uses of `git checkout`
+
+##### change between branches
+`git checkout my_new_feature`
+
+##### undo changes to any existing file which was not commited (or added...)
+`git checkout my_changed_file.py`
+
+##### go back in time to an earlier commit
+`git checkout a234bf452092` (we got the commit hash from `git log`)
+
+
+
+
+
+
+
+

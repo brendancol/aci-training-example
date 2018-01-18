@@ -51,3 +51,23 @@ git config --global push.default current
 1. git checkout <the branch you want to merge INTO>
 2. git merge <branch you want to merge FROM>
 ```
+
+# Stash changes that you don't want commit...but don't want to lose
+```bash
+git stash
+```
+
+# Grab changes from the stash and re-apply to your project
+```bash
+git stash pop --index 1 # notice the index argument to grab a specific stashed change
+```
+
+# Look at Git History
+```bash
+git log
+
+```
+# Go back to an earlier commit
+```bash
+git checkout <commit hash you found in `git log`>
+```

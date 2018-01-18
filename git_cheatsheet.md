@@ -40,3 +40,8 @@ git checkout <branch name>
 ```bash
 git checkout -
 ```
+
+# Git config setting to push to remote branch of same name
+```bash
+git config --global push.default current
+```
